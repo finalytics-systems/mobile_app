@@ -242,3 +242,34 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+fixtures = [
+	{
+		"dt": "Custom Field",
+		"filters": [
+			[
+				"name", "in", [
+					"Branch-custom_longitude",
+					"Branch-custom_latitude",
+					"Branch-custom_column_break_pwwle",
+					"Employee Checkin-custom_location_photo",
+					"Employee Checkin-custom_client_bio_metric_photo",
+					"Company-custom_attendnace_validations_based_on_department",
+					"Project-custom_required_location_check_on_check_out",
+					"Project-custom_column_break_ievfh",
+					"Project-custom_required_to_upload_client_bio_metric_photo",
+					"Project-custom_required_to_upload_location_photo",
+					"Project-custom__mobile_app_attendance_configurations",
+					"Department-custom_required_location_check_on_check_out",
+					"Department-custom_column_break_dayvd",
+					"Department-custom_required_to_upload_client_bio_metric_photo",
+					"Department-custom_required_to_upload_location_photo",
+					"Department-custom__mobile_app_attendance_configurations",
+					"Branch-custom_radius_in_meters",
+					"Branch-custom_column_break_hvd5h",
+					"Branch-custom_mobile_app_attendance_configurations",
+				]
+			]
+		]
+	}
+]
+
